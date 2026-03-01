@@ -1,113 +1,57 @@
 body{
-	background-color: transparent;
+	background-color: black;
     margin: 0px;
     padding: 0px;
 	font-family: tahoma;
 }
 #container{
-	height: 1080px;
+	display: flex;
+    text-align: center;
+    justify-content: center;
+	height: 100vh;
 }
-#logo{
-	width: 20%;
-	height: 130px;
-	background-color: rgb(41, 41, 41);
+#nav-con{
+	width: 50%;
+	height: 15%;
+    margin: 20px;
+    padding: 0px;
 	
-	float: left;
-	display: flex;
-	border: 2px solid rgb(27, 255, 206);
-	
 }
-#tytul{
-	width: calc(60% - 4px);
-	height: 130px;
-	background-color: rgb(41, 41, 41);
-	display: flex;
-	float: left;
-	font-size: 100px;
-	border: 2px solid rgb(27, 255, 206);
-	color: rgb(27, 255, 206);
-	align-items: center;
-	justify-content: center;
-		
-
-}
-#content{
-	width: 80%;
-	height: 100%;
-	background-color: rgb(41, 41, 41);
-	border: 2px solid rgb(27, 255, 206);
-	display: flex;
-	clear: both;
-	float: left;
-
-}
-#prawa{
-	width: calc(20% - 10px);
-	height: 100%;
-	background-color: rgb(41, 41, 41);
-	display: flex;
-	border: 2px solid rgb(27, 255, 206);
-}
-#prawa ul{
+#naglowek{
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
+	height: 50%;
+	color: white;
+}
+#podstrony{
+	width: 100%;
+	height: 50%;
+	display: flex;
 
 }
-#prawa ul li{
-	width: auto;
-	height: 50px;
-	background-color: rgb(41, 41, 41);
+ul{
+	list-style: none;
 	display: flex;
-	border: 1px solid rgb(27, 255, 206);
-	color: white;
-	font-size: 30px;
-	align-items: center;
+	width: 100%;
+	display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ul li{
+	width: 25%;
+	height: 100%;
+	background-color: pink;
+	outline: 1px solid gray;
+	border-radius: 10vh;
+	margin: 5px;
+	display: flex;
+	text-align: center;
 	justify-content: center;
 }
-#mistrz{
-	width: 600px;
-	height: 150px;
-	background-color: blue;
-}	
-#imie {
-	background-color: green;
-	width: 150px;
-	height: 75px;
-	font-size: 30px;
-	float: left;
-	outline: 1px solid white;
-}
-.ranking {
-	background-color: green;
-	width: 150px;
-	height: 75px;
-	font-size: 18px;
-	float: left;
-	outline: 1px solid white;
-}
-.info {
-	background-color: green;
-	width: 120px;
-	height: 75px;
-	font-size: 18px;
-	float: left;
-	outline: 1px solid white;
-}
-#lewa {
-	width: 150px;
-	height: 150px;
+ul li:hover{
 	background-color: white;
-	float: left;
-	display: flex;
-	outline: 1px solid white;
 }
-#mistrz-con {
-	width: 750px;
-	height: 150px;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px
+ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
 }
-

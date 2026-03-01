@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="container">
         <?php
 
         require("db.php");
@@ -22,29 +23,21 @@
 
         
             ?>
-    <div id="container">
-        <div id="logo"><img src="img/pion.png"></div>
-        <div id="tytul">Szachy</div>
-        <div id="content"><?php include("$file$roz"); ?></div>
-        <div id="prawa">
-            <ul>
-                <a href="index.php?strona=mistrzowie"><li>MISTRZOWIE</li></a>
-                <li>dsagdsad</li>
-                <li>gdsagsdg</li>
-                <li>sdagasdgds</li>
-                <li>agsdagsda</li>
-                <li>gsadgsadgsdag</li>
-                <li>asdgsadgsaddg</li>
-                <li>dupa dupa dupa</li>
-                
-                <li>asdgsadg</li>
-                <li>asdgdsag</li>
-                    
-            </ul>
-        </div>
         
+        <div id="nav-con">
+            <div id="naglowek"><h1>Szachy</h1></div>
+            <div id="podstrony">
+                <ul>
+                    <?php
+                    echo '<li><a href="index.php?strona=mistrzowie">MISTRZOWIE</a></li>';
+                    echo '<li>dupa</li>';
+                    echo '<li>dupa</li>';
+                    echo '<li>dupa</li>';
 
-
+                    ?>
+                </ul>
+            </div>
+        </div>
 
 
     </div>
