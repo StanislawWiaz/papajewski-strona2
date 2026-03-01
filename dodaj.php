@@ -1,26 +1,33 @@
-Treść wiadomości Gemini
-
 <form method="post" action="dodane.php">
 
-<select name="ranking">
-<?php
-require("db.php");
-$wynik = mysqli_query($conn, "SELECT * FROM rankingi");
-while ($wiersz = mysqli_fetch_array($wynik)){
-echo '<option value="' . $wiersz["ID_rankingu"] . '">' . $wiersz["FIDE_standard"] . '</option>';
-}
-?>
-</select>
+Ranking FIDE Standard: <input type="number" name="fide_standard">
+<br>
+<br>
 
-imię i nazwisko: <input type="text" name="imie_nazwisko">
+Ranking FIDE Rapid: <input type="number" name="fide_rapid">
+<br>
+<br>
 
+Ranking FIDE Blitz: <input type="number" name="fide_blitz">
+<br>
+<br>
 
-tytuł: <input type="text" name="Tytul">
+Imię i nazwisko: <input type="text" name="imie_nazwisko">
+<br>
+<br>
 
+Tytuł (np. GM): <input type="text" name="tytul">
+<br>
+<br>
 
-czas gry: <input type="text" name="czas_gry">
+Czas gry (np. 30): <input type="text" name="czas_gry">
+<br>
+<br>
 
+Kraj pochodzenia: <input type="text" name="kraj_pochodzenia">
+<br>
+<br>
 
 <input type="submit" value="Zatwierdź" id="przycisk">
-<a href="index.php"><button type="button" >Anuluj</button></a>
+<a href="index.php"><button type="button">Anuluj</button></a>
 </form>

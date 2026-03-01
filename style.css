@@ -87,11 +87,13 @@ ul li a{
 	height: 350px;
 	outline: 2px solid black;
 	display: flex;
+	text-align: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	font-size: 2rem;
 	border-radius: 10px;
 	margin: 10px;
+	padding: 5px;
 }
 
 a{

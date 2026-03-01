@@ -21,7 +21,7 @@ mistrzowie.ranking=rankingi.ID_rankingu");
             echo '<div class ="rankingPoj">Imię i nazwisko: <br>'.$wiersz["imie_nazwisko"].'</div>';
             echo '<div class ="rankingPoj">Kraj pochodzenia: <br>'.$wiersz["kraj_pochodzenia"].'</div>';
         echo '</div>';
-
+echo '<br><a href="usun.php?id=' . $wiersz["id"] . '"><button style="background-color: red; color: white; padding: 10px; border: none; cursor: pointer;">Usuń zawodnika z bazy</button></a>';   
     echo '</div>';
     
         
