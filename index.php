@@ -38,6 +38,10 @@
                 </ul>
             </div>
         </div>
+        <div id="content">
+            <?php
+                include($file.$roz);
+            ?>
 
 
     </div>
