@@ -4,12 +4,14 @@ body{
     padding: 0px;
 	font-family: tahoma;
 }
+
 #container{
 	margin-left: auto;
 	margin-right: auto;
 justify-content: center;
 	height: 100vh;
 }
+
 #nav-con{
 	width: 50%;
 	height: 15%;
@@ -19,18 +21,21 @@ justify-content: center;
 	margin-right: auto;
 	
 }
+
 #naglowek{
 	width: 100%;
 	height: 50%;
 	color: white;
 	text-align: center;
 }
+
 #podstrony{
 	width: 100%;
 	height: 50%;
 	display: flex;
 
 }
+
 ul{
 	list-style: none;
 	display: flex;
@@ -39,6 +44,7 @@ ul{
     text-align: center;
     justify-content: center;
 }
+
 ul li{
 	width: 25%;
 	height: 100%;
@@ -50,21 +56,77 @@ ul li{
 	text-align: center;
 	justify-content: center;
 }
+
 ul li:hover{
 	background-color: white;
 }
+
 ul li a{
 	text-decoration: none;
 	color: black;
 	font-size: 20px;
 }
+
 #content{
 	width: 50%;
-	height: 80%;
 	background-color: white;
 	margin: 20px;
 	padding: 20px;
 	border-radius: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+
+.mistrz-con{
+	width: 250px;
+	height: 350px;
+	outline: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 2rem;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	float: left;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+
+}
+
+.mistrzDane{
+color: black;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+.rankingi{
+	background-color: black;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.rankingPoj{
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	outline: 1px solid pink;
+	color: white;
+
 }

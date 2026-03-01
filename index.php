@@ -30,7 +30,7 @@
                 <ul>
                     <?php
                     echo '<li><a href="index.php?strona=mistrzowie">MISTRZOWIE</a></li>';
-                    echo '<li>dupa</li>';
+                    echo '<li><a href="index.php?strona=dodaj">Dodaj szachistę</a></li>';
                     echo '<li>dupa</li>';
                     echo '<li>dupa</li>';
 
